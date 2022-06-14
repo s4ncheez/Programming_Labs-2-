@@ -26,11 +26,8 @@ int main() {
     //buf.push_in_back(120);
     cout << "=========" << '\n';
     show_param(buf);
-
     std::sort(buf.begin(), buf.end());
-
     cout << "=========" << '\n';
     show_param(buf);
-
     return 0;
 }
